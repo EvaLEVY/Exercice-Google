@@ -1,0 +1,165 @@
+*
+{
+	font-family: Arial
+}
+
+
+.Logo
+{
+	display: flex;
+
+	width: 200px;
+	margin: auto;
+	height: 70px; 
+	margin-bottom: 25px;
+
+}
+
+samp
+{	
+	display: flex;
+
+	border: 1px #DDDDDD solid;
+	border-radius: 20px;
+	color: white;
+	font-size: 1.5em;
+	width: 35%;
+	height: 40px;
+	margin: auto;
+
+}
+
+.middle
+{	
+	display: flex;
+
+	width: 20%;
+	height: 5%;
+	font-size: 0.8em;
+	padding: 1px;
+	margin: auto;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+	overflow: auto;
+}
+
+p
+{
+	display: flex;
+
+	background: #EEEEEE;
+	font-size: 1em;
+	padding: 10px;
+	margin-left: 30px;
+	}
+
+.top
+{
+	display: flex;
+
+	background: white;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 10px;
+	font-size: 0.7em;
+}
+
+.footer
+{
+	display: flex;
+
+	background: #EEEEEE;
+	flex-direction: column;
+	justify-content: flex-end;
+	font-size: 0.7em;
+	align-content: center;
+	justify-content: center;
+}
+
+.footer-links
+{
+	display: flex;
+
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.item
+{
+	display: flex;
+	margin: 10px;
+	font-size: 0.6em;
+	padding: 10px;
+}
+a
+{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+samp img
+{
+	display: flex;
+	width: 15px;
+	height: 20px;
+	margin-top: 60%;
+	margin-left: 60%;
+}
+
+.container
+{
+	display: flex;
+
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.premiers
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.derniers
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.input
+{
+	min-width: 90%;
+	border: none;
+	background: transparent;
+}
+
+.input:active
+{
+	border: none;
+}
+
+.bouton
+{
+	margin: 2%;
+}
+
+.carre
+{
+	height: 2em;
+	margin-left: 20px;
+}
+
+.connexion
+{
+	margin-left: 20px
+
+}
